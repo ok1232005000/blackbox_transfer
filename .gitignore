@@ -24,5 +24,8 @@ ensemble/
 analysis_results/
 experiments/
 experiments2/
+data/
+generated_samples/
+user_attack_runs/
 
 metadata*.json
