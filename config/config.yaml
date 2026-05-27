@@ -1,0 +1,17 @@
+server:
+  host: "0.0.0.0"
+  port: 8000
+  debug: true
+
+attack:
+  max_iterations: 100
+  epsilon: 0.05
+  learning_rate: 0.01
+
+paths:
+  attack_module: "src.attack_generation"
+  evaluation_module: "src.evaluation"
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
